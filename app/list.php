@@ -16,7 +16,7 @@
             <div class="col-lg-12">
                 <h2 class="text-center text-primary">Users List</h2>
                 <div class="col-lg-1 pull-right" style="margin-bottom: 10px">
-                    <a class="btn btn-info" href="<?php echo User::baseurl() ?>/app/add.php">Add user</a>
+                    <a class="btn btn-info" href="<?php echo User::baseurl() ?>app/add.php">Add user</a>
                 </div>
                 <?php
                 if( ! empty( $users ) ) {
